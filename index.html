@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e1e62f897a.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: bisque;
+        }
+        
+        .main-content {
+         
+    width: 90%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    
+}
+.left-section {
+    
+    
+    grid-column: span 1;
+    background-color: rgb(30, 33, 35);
+      padding: 1em;  
+    
+}
+.right-section {
+    grid-column: span 1/ span 2;
+    
+    background-color: rgb(179, 232, 252);
+}
+
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px;
+    border-color: white solid ;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+
+}
+.Social-Media-Icons{
+    color: white;
+}
+.icon{
+    color: rgb(53, 148, 211);
+}
+.skill{
+    font-size: 0.75rem;
+    text-align:left;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    padding-left:0.5rem ;
+    padding-right: 0.5rem;
+    color: white;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color: white;
+
+}
+.progress-bar{
+    border: 1px;
+    color:white;
+    height: 4px;
+}
+.right-main-content{
+    padding-top: 2rem;
+padding-bottom: 2rem;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+.right-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 674px) {
+  /* For mobile phones: */
+  .main-content,.left-section,  .right-section{
+  grid-column: 2;
+grid-template-columns: 1,1fr;
+  }
+}
+    </style>
+</head>
+<body >
+    <main class="main-content">
+<section class="left-section">
+    <div class="profile-details">
+        <img  class="profile-image" src="https://static.wixstatic.com/media/a27d24_99333688d609459d9e9a1ead34f8426d~mv2.jpg/v1/fill/w_1000,h_666,al_c,q_90,usm_0.66_1.00_0.01/a27d24_99333688d609459d9e9a1ead34f8426d~mv2.jpg"
+                    alt="sunitseth" style="width:150px;height:150px;">
+                    <h2 class="name">Hari Govind</h2> 
+                    <h4 class="designation">Devloper</h4>
+                    <p><hr style="border: 1px solid white;"></p>
+                    <p class=" description">Full Stack Web Devloper</p>
+ </div>
+ <div class="Social-Media-Icons" align="center">
+    <a href="https://github.com/gonewrong2910" target="_blank" class="icon" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/hari-govind-4087a6204/" target="_blank" class="icon" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i></a></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/" target="_blank" class="icon" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></i></a></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h3 class="icon" target="_blank" width="200px;" color="white" size="5" align="left" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i>  harigovind29101998@gmail.com</h3>
+        <h3 class="icon" target="_blank" width="200px;" color="white" size="5" align="left" rel="noopener noreferrer"><i class="fa-solid fa-phone"></i>  +919540444640</h3>
+        <h3 class="icon" target="_blank" width="200px;" color="white" size="5" align="left" rel="noopener noreferrer"><i class="fa-solid fa-location-pin"></i></i>  Palam New Delhi</h3>
+    
+</div >
+<div >
+    <h1 class="skill">SKILLS</h1>
+    <a class="skill-name">JAVA</a>
+    <p class="progress-bar"><hr width="200px;" color="white" size="5" align="left"></p>
+  <a class="skill-name">HTML</a>  
+  <p class="progress-bar"> <hr width="300px;" color="white" size="5" align="left"></p>   
+   <a class="skill-name">CSS</a>   
+   <p class="progress-bar"> <hr width="300px;" color="white" size="5" align="left"></p>  
+   <a class="skill-name">JAVASCRIPT</a>
+   <p class="progress-bar"> <hr width="150px;" color="white" size="5" align="left"></p>
+   <a class="skill-name">NODE JS</a>
+   <p class="progress-bar"> <hr width="150px;" color="white" size="5" align="left"></p>   
+</div>
+       </div> 
+</section>
+
+<section class="right-section">
+    <div class="right-main-content">
+        <div class="right-title">
+            <h1>ABOUT ME</h1>
+        <p>To achieve excellent in professional life, growth orientation in personal life, be successful as a person
+            maintaining honesty, regularity & hard work and to work in challenging atmosphere, which provides
+            sample opportunities for learning and growth. I believe in producing the results and want to raise high
+            in my profession.</p>
+        <h1>EDUCATION</h1>
+        <p>BACHELOR in COMPUTER ENGINEERING from RPIIT college in karnal Haryana 2021</p>
+     
+        <p>Completed 12th from C.B.S.E Board Air Force School Delhi </p>
+        <h1>EXPERIENCE</h1>
+        <p>Cyber Security Industry Internship in Association with VPKBIET BARAMATI INDIA form SISTMR.
+            <h1>PROJECTS</h1>
+            <p>Online buy and selling book Website</p>
+        </div>
+     </div>
+</section>
+</main>
+</body>
+
+</html>
